@@ -21,7 +21,7 @@ https://balsamiq.cloud/sr6q8a4/p9imso9/r2278
 ![Users Edit Account](/Wireframes/Users-Edit_Account.png)
 ![Users Restaurant Page](/Wireframes/Users-Restaurant_Page.png)
 ![Users Event Detail](/Wireframes/Users-Event_Detail.png)
-![Users Order Placement](/Wirefreams/Users-Order_Placement.png)
+![Users Order Placement](/Wireframes/Users-Order_Placement.png)
 ![Users Order Detail](/Wireframes/Users-Order_Detail.png)
 ## Database Models
 ![Database](/Wireframes/DB.png)
