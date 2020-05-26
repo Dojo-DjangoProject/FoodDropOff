@@ -14,3 +14,12 @@ def register(request):
 
 def logout(request):
     pass
+
+def restaurant_events(request,restaurant_id):
+    
+    # upcoming_events = Event.objects.all().order_by(date_time > today)
+    
+    context = {
+        # 'upcoming_events' : upcoming_events
+    }
+    return render(request,'restaurantevents.html',context)
