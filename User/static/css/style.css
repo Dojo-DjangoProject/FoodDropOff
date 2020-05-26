@@ -3,3 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.container {
+    padding-top: 30px;
+    margin: auto;
+}
+
+.links {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links a {
+    font-size: 18px;
+    color: #363535;
+}

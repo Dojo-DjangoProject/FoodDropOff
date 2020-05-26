@@ -4,7 +4,7 @@ from django.contrib import messages
 
 # Create your views here.
 def index(request):
-    pass
+    return render(request, 'index.html')
 
 def login(request):
     pass
