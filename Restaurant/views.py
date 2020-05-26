@@ -6,3 +6,9 @@ from django.contrib import messages
 def index(request):
     # Render homepage
     pass
+
+def login(request):
+    return render(request,'restaurant-login.html')
+
+def register(request):
+    return render(request,'restaurant-registration.html')

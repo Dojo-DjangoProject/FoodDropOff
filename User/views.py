@@ -7,10 +7,10 @@ def index(request):
     return render(request, 'index.html')
 
 def login(request):
-    pass
+    return render(request, 'login.html')
 
 def register(request):
-    pass
+    return render(request, 'registration.html')
 
 def logout(request):
     pass

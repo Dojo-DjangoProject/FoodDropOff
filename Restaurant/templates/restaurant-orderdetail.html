@@ -25,7 +25,7 @@
                     <h3>Restaurant Name</h3>
                 </div>
                 <div class="col text-right">
-                    <a href="/editaccount">Account</a> | 
+                    <a href="/restaurants/editaccount">Account</a> | 
                     <a href="/logout">Logout</a>
                 </div>
             </div>
@@ -49,9 +49,21 @@
                                 Order Status:
                             </div>
                             <div class="col col-sm-8 text-left">
-                                Placed
-                                <span> 
+                                Received
+                                <span>
+                                    <a href="/restaurant/confirm" role="button" class="btn btn-outline-dark btn-sm">Confirm</a> | 
                                     <a href="#" role="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#cancelorder">Cancel</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-sm-4 text-left">
+                                Ordered By:
+                            </div>
+                            <div class="col col-sm-8 text-left">
+                                John Doe
+                                <span>
+                                    <a href="#" class="ajax-message">Message John</a>
                                 </span>
                             </div>
                         </div>
@@ -88,11 +100,6 @@
                             </div>
                             <div class="col col-sm-8 text-left">
                                 $22.50
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-sm-12 text-center">
-                                <a href="#" class="ajax-message">Send Restaurant a Message</a>
                             </div>
                         </div>
                     </div>

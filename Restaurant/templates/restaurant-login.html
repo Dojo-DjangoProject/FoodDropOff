@@ -22,17 +22,17 @@
                     </a>
                 </div>
                 <div class="col text-center">
-                    <h3>Users</h3>
+                    <h3>Restaurants</h3>
                 </div>
                 <div class="col text-right">
-                    <a href="/restaurant/login">Restaurants Login</a>
+                    <a href="/login">To place an order, log in as a user</a>
                 </div>
             </div>
         </div>
         
         <div class="row justify-content-center">
             <div class="col-6 text-center">
-                <p>Log in to view events and place orders</p>
+                <p>Log in to create and manage events</p>
                 <div class="row">
                     <div class="col-sm-4 col-form-label"></div>
                     {% for message in messages %}
@@ -61,7 +61,7 @@
                     </div>
                 </form>
                 <div class="text-center">
-                    <a href="/register" class="registerlink">Not registered? Sign up to use Food Dropoff for free!</a>
+                    <a href="/restaurant/register" class="registerlink">Not registered? Sign up to use Food Dropoff for free!</a>
                 </div>
                 <!-- <div class="text-center">
                     <a href="/user/passwordreset">Forgot Password?</a>
